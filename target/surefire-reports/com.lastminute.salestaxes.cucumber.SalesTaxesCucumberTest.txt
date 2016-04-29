@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.lastminute.salestaxes.cucumber.SalesTaxesCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 0.429 sec <<< FAILURE!
+Then total price is 29.83 and total sales tax is 1.50(Scenario: Input 1)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<29.83> but was:<29.830000000000005>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at com.lastminute.salestaxes.cucumber.MyStepDef.total_receipt_price_and_taxes(MyStepDef.java:36)
+	at ✽.Then total price is 29.83 and total sales tax is 1.50(salesTaxes.feature:7)
+
+Scenario: Input 1  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<29.83> but was:<29.830000000000005>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at com.lastminute.salestaxes.cucumber.MyStepDef.total_receipt_price_and_taxes(MyStepDef.java:36)
+	at ✽.Then total price is 29.83 and total sales tax is 1.50(salesTaxes.feature:7)
+

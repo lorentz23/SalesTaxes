@@ -1,0 +1,4 @@
+com/lastminute/salestaxes/domain/SALEX_TAX_TYPE.class
+com/lastminute/salestaxes/SalesTaxesCalculator.class
+com/lastminute/salestaxes/domain/Receipt.class
+com/lastminute/salestaxes/domain/ReceiptItem.class
