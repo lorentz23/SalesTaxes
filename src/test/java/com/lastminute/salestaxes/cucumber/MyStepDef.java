@@ -5,7 +5,6 @@ import com.lastminute.salestaxes.ReceiptItem;
 import com.lastminute.salestaxes.SALES_TAX_TYPE;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java8.En;
 import org.junit.Assert;
 
 import java.util.List;
@@ -13,7 +12,7 @@ import java.util.List;
 /**
  * Created by lorentz on 28/04/16.
  */
-public class MyStepDef implements En {
+public class MyStepDef {
 
     private static final String REGEX_WORD = "[A-Z a-z]+";
     private static final String REGEX_SINGLE_DIGIT = "\\d+";

@@ -33,8 +33,12 @@ public class ReceiptItem {
                 totalRate += type.getRate();
             }
 
-//          salesTax = new BigDecimal(price * totalRate).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
-            salesTax = Math.round(price * totalRate * 20.0d) / 20.0d;
+            salesTax = new BigDecimal(price * totalRate).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
+//            salesTax = Math.round(price * totalRate * 20d) / 20d;
+
+//            salesTax = new BigDecimal(price * totalRate).round(new MathContext(2, RoundingMode.UP)).doubleValue();
+
+            System.out.println("Calculate sales taxes is " + salesTax + " for " + name);
         }
 
         return salesTax;
@@ -43,8 +47,9 @@ public class ReceiptItem {
     public double getTotalPrice() {
 
         if (totalPrice == null) {
-            // totalPrice = price + getSalesTax();
-            totalPrice = number * new BigDecimal(price + getSalesTax()).setScale(2, BigDecimal.ROUND_HALF_EVEN).doubleValue();
+//            totalPrice = price + getSalesTax();
+            totalPrice = number * new BigDecimal(price + getSalesTax()).setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
+//            totalPrice = number * (new BigDecimal(price + getSalesTax()).round(new MathContext(2, RoundingMode.HALF_UP)).doubleValue());
         }
 
         return totalPrice;

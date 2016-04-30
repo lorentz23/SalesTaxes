@@ -13,7 +13,7 @@ public class Receipt {
     private double totalPrice;
 
     public Receipt() {
-        items = new ArrayList<ReceiptItem>();
+        items = new ArrayList<>();
     }
 
     public double getTotalTaxes() {
@@ -47,8 +47,8 @@ public class Receipt {
     }
 
     public void addItem(ReceiptItem item) {
-        double priceTax = item.getSalesTax();
-        totalTaxes += priceTax;
+        double salesTax = item.getSalesTax();
+        totalTaxes += salesTax;
         totalPrice += item.getTotalPrice();
         items.add(item);
     }
