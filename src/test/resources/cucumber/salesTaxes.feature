@@ -21,7 +21,7 @@ Feature: Calculate sales taxes
     Given 1 bottle of perfume at 18.99 with sales tax BASIC
     Given 1 packet of headache pills at 9.75 with sales tax EXEMPT
     Given 1 imported box of chocolate at 11.25 with sales tax IMPORTED
-    Then total price is 74.78 and total sales tax is 6.70
+    Then total price is 74.68 and total sales tax is 6.70
     Given 1 imported bottle of perfume: 32.19
     Given 1 bottle of perfume : 20.89
     Given 1 packet of headache pills: 9.75
