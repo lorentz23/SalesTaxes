@@ -1,4 +1,4 @@
-package com.lastminute.salestaxes;
+package salestaxes;
 
 import java.math.BigDecimal;
 

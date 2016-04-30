@@ -1,10 +1,10 @@
-package com.lastminute.salestaxes.junit;
+package salestaxes.junit;
 
-import com.lastminute.salestaxes.Receipt;
-import com.lastminute.salestaxes.ReceiptItem;
-import com.lastminute.salestaxes.SALES_TAX_TYPE;
 import org.junit.Assert;
 import org.junit.Test;
+import salestaxes.Receipt;
+import salestaxes.ReceiptItem;
+import salestaxes.SALES_TAX_TYPE;
 
 /**
  * Created by lorentz on 27/04/16.

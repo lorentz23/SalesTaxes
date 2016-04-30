@@ -1,4 +1,4 @@
-package com.lastminute.salestaxes;
+package salestaxes;
 
 /**
  * Created by lorentz on 27/04/16.

@@ -1,11 +1,11 @@
-package com.lastminute.salestaxes.cucumber;
+package salestaxes.cucumber;
 
-import com.lastminute.salestaxes.Receipt;
-import com.lastminute.salestaxes.ReceiptItem;
-import com.lastminute.salestaxes.SALES_TAX_TYPE;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
+import salestaxes.Receipt;
+import salestaxes.ReceiptItem;
+import salestaxes.SALES_TAX_TYPE;
 
 import java.util.List;
 

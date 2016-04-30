@@ -1,4 +1,4 @@
-package com.lastminute.salestaxes;
+package salestaxes;
 
 import java.util.ArrayList;
 import java.util.List;

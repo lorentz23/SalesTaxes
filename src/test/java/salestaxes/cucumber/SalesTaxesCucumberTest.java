@@ -1,4 +1,4 @@
-package com.lastminute.salestaxes.cucumber;
+package salestaxes.cucumber;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
