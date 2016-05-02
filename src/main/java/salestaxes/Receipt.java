@@ -40,7 +40,7 @@ public class Receipt {
             result.append("\n");
         }
 
-        result.append("SalesTaxes: ").append(totalPrice).append("\n");
+        result.append("SalesTaxes: ").append(totalTaxes).append("\n");
         result.append("Total: ").append(totalPrice);
 
         return result.toString();
